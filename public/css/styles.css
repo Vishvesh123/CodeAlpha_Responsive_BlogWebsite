@@ -1,6 +1,8 @@
+
 html {
   min-height: 100%;
   position: relative;
+
 }
 
 .container-fluid {
@@ -13,8 +15,12 @@ html {
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 5px;
+  font-family: 'Ysabeau SC', sans-serif;
+}
+.navbar-brand{
+  font-size: 25px;
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -38,4 +44,16 @@ html {
 	margin-top: 25px;
 	font-size: 20px;
   color: #fff;
+}
+.middle h1{
+  letter-spacing: 2px;
+  color: #1abc9c;
+
+  padding-bottom:  40px;
+  padding-top: 10px;
+}
+.middle p{
+  
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 1px;
 }
